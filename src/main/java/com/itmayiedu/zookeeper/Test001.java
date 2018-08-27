@@ -33,9 +33,7 @@ public class Test001 {
 				if (KeeperState.SyncConnected == keeperState) {
 					if (EventType.None == eventType) {
 
-						System.out.println("zk 启动连接...");
-						System.out.println("我根本不想理你");
-						System.out.println("不知道怎么回事");
+
 
 						countDownLatch.countDown();
 					}

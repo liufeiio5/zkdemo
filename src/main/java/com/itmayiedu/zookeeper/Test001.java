@@ -38,7 +38,6 @@ public class Test001 {
 						System.out.println("不知道怎么回事");
 
 						countDownLatch.countDown();
-						System.out.println("你以为我想理你啊");
 					}
 
 				}

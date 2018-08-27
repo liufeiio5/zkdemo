@@ -35,6 +35,8 @@ public class Test001 {
 
 						System.out.println("zk 启动连接...");
 						System.out.println("我根本不想理你");
+						System.out.println("不知道怎么回事，最近想吐");
+
 						countDownLatch.countDown();
 						System.out.println("你以为我想理你啊");
 					}

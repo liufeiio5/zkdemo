@@ -34,7 +34,7 @@ public class Test001 {
 					if (EventType.None == eventType) {
 
 
-
+						System.out.println("突然间很想死");
 						countDownLatch.countDown();
 					}
 

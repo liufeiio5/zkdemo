@@ -16,7 +16,7 @@ import org.apache.zookeeper.data.Id;
 public class Test001 {
 
 	// 连接地址
-	private static final String ADDRES = "127.0.0.1:2181";
+	private static final String ADDRES = "192.168.1.10:2181";
 	// session 会话
 	private static final int SESSION_OUTTIME = 2000;
 	// 信号量,阻塞程序执行,用户等待zookeeper连接成功,发送成功信号，
@@ -32,7 +32,6 @@ public class Test001 {
 				EventType eventType = event.getType();
 				if (KeeperState.SyncConnected == keeperState) {
 					if (EventType.None == eventType) {
-
 
 						System.out.println("突然间很想死");
 						countDownLatch.countDown();

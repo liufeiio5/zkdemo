@@ -1,1 +1,2 @@
 # zkdemo
+master clean
